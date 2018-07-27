@@ -1,0 +1,33 @@
+{
+    "name": "poweronsystem/databaseservice",
+    "type": "library",
+    "description": "Database service.",
+    "keywords": ["database", "mysql", "orm", "sql", "pdo"],
+    "homepage": "https://github.com/poweronsystem/databaseservice",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Lucas Sosa",
+            "email": "sosalucas87@gmail.com",
+            "homepage": "http://www.poweronsistemas.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "poweronsystem/webutility": "^0.1.0"
+    },
+    "require-dev": {
+        "kint-php/kint": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PowerOn\\Database\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "test"
+        }
+    }
+    
+}

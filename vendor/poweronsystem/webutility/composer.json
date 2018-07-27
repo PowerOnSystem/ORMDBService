@@ -1,0 +1,27 @@
+{
+    "name": "poweronsystem/webutility",
+    "type": "library",
+    "description": "Utilities for php programmers.",
+    "keywords": ["utilities", "string formatter", "array hash", "inflector"],
+    "homepage": "https://github.com/poweronsystem/webutility",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Lucas Sosa",
+            "email": "sosalucas87@gmail.com",
+            "homepage": "http://www.poweronsistemas.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PowerOn\\Utility\\": "src"
+        }
+    },
+    "require-dev": {
+        "kint-php/kint": "^2.1"
+    }
+}
